@@ -22,19 +22,34 @@ export default function Header() {
             <span className="text-sky-500 text-3xl"> Rubén Yáñez.</span>
           </h1>
           <h2 className="">
-            Soy desarrollador web Full Stack con sede en La Coruña, España.
+            Soy <span className="text-sky-500"> desarrollador web </span>{" "}
+            <span className="text-fuchsia-500">Full Stack</span> con sede en La
+            Coruña, España.
           </h2>
         </div>
 
         <p className=" text-slate-300 text-lg">
           Soy un desarrollador autodidacta apasionado por aprender cosas nuevas
-          y resolver problemas. Actualmente trabajo como freelance, pero estoy
-          buscando nuevas oportunidades para crecer como desarrollador.
+          y <span className="text-fuchsia-500">resolver problemas.</span>{" "}
+          Actualmente trabajo como freelance, pero estoy buscando nuevas
+          oportunidades para crecer como desarrollador.
         </p>
 
-        <div className="flex gap-4 ">
-          <Image src="/github.svg" alt="github" width={50} height={50} />
-          <Image src="/linkedin.svg" alt="github" width={50} height={50} />
+        <div className="flex gap-4">
+          <Image
+            src="/github.svg"
+            alt="github"
+            width={50}
+            height={50}
+            className="cursor-pointer"
+          />
+          <Image
+            src="/linkedin.svg"
+            alt="github"
+            width={50}
+            height={50}
+            className="cursor-pointer"
+          />
         </div>
       </section>
     </div>
