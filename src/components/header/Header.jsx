@@ -37,15 +37,23 @@ export default function Header() {
         </p>
 
         <div className="flex gap-6">
-          <button className="flex items-center gap-2 border border-fuchsia-500 p-2 rounded-xl hover:border-none hover:bg-sky-500 transition-all duration-500">
+          <a
+            href="https://github.com/RubenMeju"
+            target="_blank"
+            className="flex items-center gap-2 border border-fuchsia-500 p-2 rounded-xl hover:bg-sky-500 transition-all duration-500"
+          >
             <Github className="w-10 h-10 fill-white " />
             Github
-          </button>
+          </a>
 
-          <button className="flex items-center gap-2 border border-fuchsia-500 p-2 rounded-xl hover:border-none hover:bg-sky-500 transition-all duration-500">
+          <a
+            href="https://www.linkedin.com/in/ruben-yanez/"
+            target="_blank"
+            className="flex items-center gap-2 border border-fuchsia-500 p-2 rounded-xl hover:bg-sky-500 transition-all duration-500"
+          >
             <LinkedIn className="w-10 h-10 fill-white" />
             LinkedIn
-          </button>
+          </a>
         </div>
       </section>
     </div>

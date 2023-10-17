@@ -13,8 +13,8 @@ export default function Contact() {
       <span className="text-xl">rubenmeju@outlook.es</span>
 
       <div className="flex gap-6 justify-center">
-        <Github className="fill-white hover:fill-fuchsia-500 w-14" />
-        <LinkedIn className="fill-white hover:fill-fuchsia-500 w-14" />
+        <Github className="fill-white hover:fill-fuchsia-500 w-14 cursor-pointer" />
+        <LinkedIn className="fill-white hover:fill-fuchsia-500 w-14 cursor-pointer" />
       </div>
     </div>
   );
