@@ -38,16 +38,16 @@ const projects = [
 
 export default function Projects() {
   return (
-    <>
+    <div className="w-full">
       <h1 className="text-center text-3xl p-10">Proyectos</h1>
-      <div className="flex flex-col gap-10">
+      <div className="w-full flex flex-col gap-10 md:flex-row md:flex-wrap md: justify-between">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="flex flex-col gap-2 p-4 bg-zinc-900 rounded-3xl"
+            className="w-full flex flex-col gap-2 p-4 bg-zinc-900 rounded-xl md:w-[45%]"
           >
-            <h1 className="text-xl">{project.name}</h1>
-            <div className="relative w-full h-64 max-w-md bg-red-300">
+            <h1 className="text-2xl text-sky-400">{project.name}</h1>
+            <div className="relative w-full h-64">
               <Image
                 src={project.src}
                 alt={project.name}
@@ -58,8 +58,8 @@ export default function Projects() {
 
             <section className="w-full flex justify-between">
               <div className="w-[70%] flex flex-col gap-4">
-                <p className="pt-2 text-xl">{project.description}</p>
-                <p className="">{project.technologies}</p>
+                <p className="pt-2 text-lg">{project.description}</p>
+                <p className="text-sm text-slate-200">{project.technologies}</p>
               </div>
 
               <div className="w-[30%] flex justify-end items-center gap-2">
@@ -85,6 +85,6 @@ export default function Projects() {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 }
