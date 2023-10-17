@@ -1,3 +1,4 @@
+import { Github, LinkedIn } from "@/utils";
 import Image from "next/image";
 
 export default function Header() {
@@ -29,32 +30,20 @@ export default function Header() {
         </div>
 
         <p className=" text-slate-300 text-lg">
-          Autodidacta apasionado por aprender cosas nuevas y{" "}
-          <span className="text-fuchsia-500">resolver problemas.</span>
+          Autodidacta apasionado por aprender cosas nuevas y
+          <span className="text-fuchsia-500"> resolver problemas. </span>
           Actualmente trabajo como freelance, pero estoy buscando nuevas
           oportunidades para crecer como desarrollador.
         </p>
 
         <div className="flex gap-6">
           <button className="flex items-center gap-2 border border-fuchsia-500 p-2 rounded-xl hover:border-none hover:bg-sky-500 transition-all duration-500">
-            <Image
-              src="/github.svg"
-              alt="github"
-              width={50}
-              height={50}
-              className="cursor-pointer"
-            />
+            <Github className="w-10 h-10 fill-white " />
             Github
           </button>
 
           <button className="flex items-center gap-2 border border-fuchsia-500 p-2 rounded-xl hover:border-none hover:bg-sky-500 transition-all duration-500">
-            <Image
-              src="/linkedin.svg"
-              alt="github"
-              width={50}
-              height={50}
-              className="cursor-pointer"
-            />
+            <LinkedIn className="w-10 h-10 fill-white" />
             LinkedIn
           </button>
         </div>

@@ -1,5 +1,5 @@
+import { Github, IconGoDemo } from "@/utils";
 import Image from "next/image";
-import Link from "next/link";
 
 const projects = [
   {
@@ -63,22 +63,20 @@ export default function Projects() {
               </div>
 
               <div className="w-[30%] flex justify-end items-center gap-2">
-                <a href={project.linkGithub} target="_blank">
-                  <Image
-                    src="/github.svg"
-                    alt="goDemo"
-                    width={32}
-                    height={32}
-                  />
+                <a
+                  href={project.linkGithub}
+                  target="_blank"
+                  className="w-8 h-8"
+                >
+                  <Github className="fill-white hover:fill-fuchsia-500" />
                 </a>
 
-                <a href={project.linkDemo} target="_blank">
-                  <Image
-                    src="/goDemo.svg"
-                    alt="goDemo"
-                    width={32}
-                    height={32}
-                  />
+                <a
+                  href={project.linkDemo}
+                  target="_blank"
+                  className="w-10 h-10"
+                >
+                  <IconGoDemo className="fill-white hover:fill-fuchsia-500 pt-1" />
                 </a>
               </div>
             </section>
