@@ -30,7 +30,7 @@ const projects = [
     name: "API Dragon Ball",
     description: "API sobre el famoso anime de Dragon Ball",
     src: "/projects/dragonball.png",
-    technologies: "Django, Swagger UI, HTML, CSS, React, Next 13",
+    technologies: "Django, Swagger UI, HTML, CSS, React, Next 13, FramerMotion",
     linkGithub: "https://github.com/RubenMeju/Dragon_ball_Frontend",
     linkDemo: "https://dragon-ball-frontend.vercel.app/",
   },

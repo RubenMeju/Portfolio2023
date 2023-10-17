@@ -10,6 +10,9 @@ export default function NavBar() {
       <Link href="#projects" className="hover:text-sky-500">
         Proyectos
       </Link>
+      <Link href="#contact" className="hover:text-sky-500">
+        Contacto
+      </Link>
     </nav>
   );
 }
