@@ -39,7 +39,7 @@ const projects = [
 export default function Projects() {
   return (
     <div className="w-full">
-      <h1 className="text-center text-3xl p-10">Proyectos</h1>
+      <h1 className="text-center text-3xl pb-10">Proyectos</h1>
       <div className="w-full flex flex-col gap-10 md:flex-row md:flex-wrap md: justify-between">
         {projects.map((project, index) => (
           <div
@@ -68,7 +68,7 @@ export default function Projects() {
                   target="_blank"
                   className="w-8 h-8"
                 >
-                  <Github className="fill-white hover:fill-fuchsia-500" />
+                  <Github className="fill-white hover:fill-fuchsia-600" />
                 </a>
 
                 <a
@@ -76,7 +76,7 @@ export default function Projects() {
                   target="_blank"
                   className="w-10 h-10"
                 >
-                  <IconGoDemo className="fill-white hover:fill-fuchsia-500 pt-1" />
+                  <IconGoDemo className="fill-white hover:fill-fuchsia-600 pt-1" />
                 </a>
               </div>
             </section>
@@ -87,7 +87,7 @@ export default function Projects() {
       <a
         href="https://github.com/RubenMeju?tab=repositories"
         target="_blank"
-        className="w-48 m-auto mt-10 flex items-center gap-2 border border-fuchsia-500 p-2 rounded-xl  hover:bg-sky-500 transition-all duration-500"
+        className="w-48 m-auto my-10 flex items-center gap-2 border border-fuchsia-600 p-2 rounded-xl  hover:bg-fuchsia-600 transition-all duration-500"
       >
         <Github className="w-10 h-10 fill-white " />
         Más proyectos
