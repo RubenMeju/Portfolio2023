@@ -17,15 +17,12 @@ export default function Header() {
       </div>
 
       <section className="max-w-md flex flex-col gap-4 text-xl text-aling">
-        <div>
-          <h1 className="">
-            Hola, mí nombre es
-            <span className="text-sky-500 text-3xl"> Rubén Yáñez.</span>
-          </h1>
+        <div className="mb-4">
+          <h1 className="text-sky-500 text-4xl">Rubén Yáñez</h1>
           <h2 className="">
-            <span className="text-sky-500">Desarrollador web </span>
-            <span className="text-fuchsia-500">Full Stack</span> con sede en La
-            Coruña, España.
+            Desarrollador web
+            <span className="text-fuchsia-500"> Full Stack</span>
+            <small className="text-sm pl-1">, A Coruña</small>
           </h2>
         </div>
 
@@ -40,16 +37,16 @@ export default function Header() {
           <a
             href="https://github.com/RubenMeju"
             target="_blank"
-            className="flex items-center gap-2 border border-fuchsia-500 p-2 rounded-xl hover:bg-sky-500 transition-all duration-500"
+            className="flex items-center gap-2 border border-fuchsia-500 px-4 py-2 rounded-xl hover:bg-fuchsia-500 transition-all duration-500"
           >
             <Github className="w-10 h-10 fill-white " />
-            Github
+            GitHub
           </a>
 
           <a
             href="https://www.linkedin.com/in/ruben-yanez/"
             target="_blank"
-            className="flex items-center gap-2 border border-fuchsia-500 p-2 rounded-xl hover:bg-sky-500 transition-all duration-500"
+            className="flex items-center gap-2 border border-fuchsia-500 px-4 p-2 rounded-xl hover:bg-fuchsia-500 transition-all duration-500"
           >
             <LinkedIn className="w-10 h-10 fill-white" />
             LinkedIn

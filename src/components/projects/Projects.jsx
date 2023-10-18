@@ -90,7 +90,7 @@ export default function Projects() {
         className="w-48 m-auto mt-10 flex items-center gap-2 border border-fuchsia-500 p-2 rounded-xl  hover:bg-sky-500 transition-all duration-500"
       >
         <Github className="w-10 h-10 fill-white " />
-        más proyectos
+        Más proyectos
       </a>
     </div>
   );
