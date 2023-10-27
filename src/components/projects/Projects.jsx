@@ -30,9 +30,27 @@ const projects = [
     name: "API Dragon Ball",
     description: "API sobre el famoso anime de Dragon Ball",
     src: "/projects/dragonball.png",
-    technologies: "Django, Swagger UI, HTML, CSS, React, Next 13, FramerMotion",
+    technologies:
+      "Django, Swagger UI, HTML, Tailwind CSS, React, Next 13, FramerMotion",
     linkGithub: "https://github.com/RubenMeju/Dragon_ball_Frontend",
     linkDemo: "https://dragon-ball-frontend.vercel.app/",
+  },
+  {
+    name: "ToDoList",
+    description:
+      "App simple de lista de tareas estilo Post-it que te permite agregar y eliminar tareas.",
+    src: "/projects/todolist.webp",
+    technologies: "HTML, CSS, React, Vite",
+    linkGithub: "https://github.com/RubenMeju/ToDoList",
+    linkDemo: "https://to-do-list-seven-eosin.vercel.app/",
+  },
+  {
+    name: "Movies API TMDB",
+    description: "App de películas consumiendo la API TMDB. ",
+    src: "/projects/moviesApp1.webp",
+    technologies: "HTML, Tailwind CSS, React, Vite",
+    linkGithub: "https://github.com/RubenMeju/Movies_API_TMDB",
+    linkDemo: "https://movies-api-tmdb.vercel.app/",
   },
 ];
 

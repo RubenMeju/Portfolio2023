@@ -19,7 +19,7 @@ export default function Header() {
       <section className="max-w-md mt-4 flex flex-col gap-4 text-xl text-aling">
         <div className="mb-4">
           <h1 className="text-sky-500 text-4xl">Rubén Yáñez</h1>
-          <h2 className="">
+          <h2 className="md:text-2xl">
             Desarrollador web
             <span className="text-fuchsia-600"> Full Stack</span>
             <small className="text-sm pl-1">, A Coruña</small>
